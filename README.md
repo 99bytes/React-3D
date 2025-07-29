@@ -1,12 +1,67 @@
-# React + Vite
+# MCODE - React 3D Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page for developers, featuring 3D graphics and interactive UI, built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [https://react3dfe2.netlify.app/](https://react3dfe2.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- ⚡ Clean, responsive design
+- 🎨 Styled with Tailwind CSS
+- 🤖 3D robot model powered by Spline
+- 📱 Mobile-friendly navigation with animated menu
+- 📨 Developer-focused email service showcase
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/react3d.git
+   cd react3d
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+   The site will be available at `http://localhost:5173` (or as shown in your terminal).
+
+## Project Structure
+
+```
+src/
+  ├── App.jsx
+  ├── Hero.jsx
+  ├── Header.jsx
+  ├── main.jsx
+  └── ...
+public/
+  └── gradient.png
+index.html
+tailwind.config.js
+```
+
+## Technologies Used
+
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Spline 3D](https://spline.design/)
+- [Boxicons](https://boxicons.com/)
+
+## Customization
+
+- **3D Model:** Change the Spline scene URL in `Hero.jsx` to use your own 3D model.
+- **Branding:** Update text, colors, and images in the components as needed.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+> Built with ❤️ using React and
