@@ -58,9 +58,9 @@ tailwind.config.js
 - **3D Model:** Change the Spline scene URL in `Hero.jsx` to use your own 3D model.
 - **Branding:** Update text, colors, and images in the components as needed.
 
-## License
 
-This project is open source and available under the [MIT License](LICENSE).
+
+
 
 ---
 
